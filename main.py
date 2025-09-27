@@ -15,3 +15,7 @@ def celcius_to_kelvin(temperature_celcius):
 def fahrenheit_to_celcius(temperature_fahrenheit):
     temperature_celcius = (temperature_fahrenheit - 32) * 5/9
     return temperature_celcius
+
+def fahrenheit_to_reamur(temperature_fahrenheit):
+    temperature_reamur = (temperature_fahrenheit - 32) * 4/9
+    return temperature_reamur
